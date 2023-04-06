@@ -54,6 +54,38 @@ html {
   text-align: center;
 }
 
+.container-first {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			padding: 20px;
+			margin: 0 auto;
+			max-width: 800px;
+			justify-content: center;
+			text-align: center;
+		}
+		.image-first {
+			float: left;
+			margin-right: 20px;
+			height: auto;
+			width: 400px;
+			z-index= -1;
+		}
+		.title-first {
+			font-weight: bold;
+		}
+		.subtitle-first {
+			font-style: italic;
+		}
+		.text{
+		  position: relative; /* make text container relative */
+			z-index: 1; /* set text z-index to positive */
+			margin-left: -380px; /* set negative margin to overlap image */
+			padding: 20px; /* add padding to text container */
+			background-color: #fff; /* add background color to text container */
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* add box-shadow to text container */
+		}
+
 @media screen and (max-width: 650px) {
   .column {
     width: 100%;
