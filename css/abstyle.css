@@ -41,11 +41,11 @@ body {
      color: grey;
 }
  .board-title{
-     background-color: lightgrey;
+     background-color: #f1f1f1;
      color: black;
      text-align: center;
      padding: 15px;
-     margin: auto;
+     margin: 10px  10px;
      margin-bottom: 10px;
      border-style: double;
      border-color: white;
@@ -80,7 +80,7 @@ body {
 .contain {
   display: flex;
   flex-direction: row;
-  background-color:#f1f1f1;
+  background-color: #f1f1f1;
   background-size: 100%;
   padding: 40px;
   justify-content: center;
@@ -136,6 +136,16 @@ body {
   width: 425px;
   height: 440px;
   border-radius: 25px;
+}
+
+.right {
+  background-color: #f1f1f1;
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
 }
 
  @media screen and (max-width: 650px) {
