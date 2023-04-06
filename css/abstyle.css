@@ -146,6 +146,8 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
+  line-height: 1.8;
+  font-family: 'Playfair Display', serif;
 }
 
  @media screen and (max-width: 650px) {
