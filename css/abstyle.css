@@ -1,9 +1,9 @@
 body {
-     font-family: 'Playfair Display', serif;
      margin: 0;
      background: blue;
      background: linear-gradient(#4169E1, white);
      background-attachment: fixed;
+	 font-family: 'Playfair Display', 'Lora', serif;
 }
  html {
      box-sizing: border-box;
@@ -61,19 +61,19 @@ body {
      text-align: center;
 }
  .foot-1 {
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;
      font-size: 16px;
      color: #333;
      font-weight: bold;
 }
  .foot-2 {
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;
      font-size: 14px;
      color: #333;
      font-weight: bold;
 }
  .foot-3 {
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;
      font-size: 10px;
      color: #333;
      font-weight: bold;
@@ -93,7 +93,7 @@ body {
      text-align: center;
 }
  .text-46{
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;;
      background-color:white;
      color:black;
      padding:10px;
@@ -102,7 +102,7 @@ body {
 }
  .text-47{
      padding:10px;
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;
      font-size: 16px;
 }
  .image-48 {
@@ -126,7 +126,7 @@ body {
      margin-right: 10px;
      text-align: center;
      line-height: 1.8;
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;
 }
  #navbar-container{
      text-align: center;
@@ -157,13 +157,13 @@ body {
      padding: 1em 2em;
      font-size: 1em;
      font-weight: bold;
-     font-family: 'Futura PT', sans-serif;
+     font-family: 'Playfair Display', 'Lora', serif;
 }
  #navbar-container ul li a:hover{
      background-color: #8AC7DB;
 }
  button{
-     font-family: 'Playfair Display', serif;
+     font-family: 'Playfair Display', 'Lora', serif;
      background-color: black;
      color: white;
      margin: 15px;
