@@ -1,2 +1,2 @@
 # Project-2
-Krish, Alex, and Azzam's repository for Project 2.
+This is Krish Dhungana fork of the project 2 website redesign repository.
